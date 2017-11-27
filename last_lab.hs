@@ -45,7 +45,7 @@ guess_42 = do
     number <- getLine
     let num = read number :: Integer
     if num == 42 then 
-        putStrLn "Correct"
+        putStrLn "Correct!"
     else
         putStrLn "Wrong"
 
